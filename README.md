@@ -1,5 +1,5 @@
 ## Welcome to GitHub Pages
-It takes 1 min. for it to refresh with the changes
+It takes 1 min. for it to refresh with the changes </br>
 This is the site domain https://trymory.github.io/cap480/
 
 You can use the [editor on GitHub](https://github.com/Trymory/cap480/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
