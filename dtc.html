@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -7,102 +7,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         #myImg {
-            border-radius: 5px;
-            cursor: pointer;
-            transition: 0.3s;
+            margin-bottom: 40px;
+            margin-left: 40px;
+            border-radius: 13px;
         }
 
-            #myImg:hover {
-                opacity: 0.7;
-            }
-
-        /* The Modal (background) */
-        .modal {
-            display: none; /* Hidden by default */
-            position: fixed; /* Stay in place */
-            z-index: 1; /* Sit on top */
-            padding-top: 100px; /* Location of the box */
-            left: 0;
-            top: 0;
-            width: 100%; /* Full width */
-            height: 100%; /* Full height */
-            overflow: auto; /* Enable scroll if needed */
-            background-color: rgb(0,0,0); /* Fallback color */
-            background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-        }
-
-        /* Modal Content (image) */
-        .modal-content {
-            margin: auto;
-            display: block;
-            width: 80%;
-            max-width: 700px;
-        }
-
-        /* Caption of Modal Image */
-        #caption {
-            margin: auto;
-            display: block;
-            width: 80%;
-            max-width: 700px;
-            text-align: center;
-            color: #ccc;
-            padding: 10px 0;
-            height: 150px;
-        }
-
-        /* Add Animation */
-        .modal-content, #caption {
-            -webkit-animation-name: zoom;
-            -webkit-animation-duration: 0.6s;
-            animation-name: zoom;
-            animation-duration: 0.6s;
-        }
-
-        @-webkit-keyframes zoom {
-            from {
-                -webkit-transform: scale(0)
-            }
-
-            to {
-                -webkit-transform: scale(1)
-            }
-        }
-
-        @keyframes zoom {
-            from {
-                transform: scale(0)
-            }
-
-            to {
-                transform: scale(1)
-            }
-        }
-
-        /* The Close Button */
-        .close {
-            position: absolute;
-            top: 15px;
-            right: 35px;
-            color: #f1f1f1;
-            font-size: 40px;
-            font-weight: bold;
-            transition: 0.3s;
-        }
-
-            .close:hover,
-            .close:focus {
-                color: #bbb;
-                text-decoration: none;
-                cursor: pointer;
-            }
-
-        /* 100% Image Width on Smaller Screens */
-        @media only screen and (max-width: 700px) {
-            .modal-content {
-                width: 100%;
-            }
-        }
     </style>
 </head>
 <body>
@@ -120,39 +29,113 @@
     <label for="nav-trigger" style="padding-bottom:-20%;"></label>
     <div class="site-wrap">
 
-        <h1>Who Are These Guys? Oh Just Some Randome Nerds And Geeks <br /> Come meet the Crew</h1>
+        <h1>Who Are We? We Are Drone Tech<br /> Introducing the drones</h1>
+        <div style="margin-top:6%">
+            <!--thyra-->
+            <img id="myImg" src="images/Allen,Jefferson 1x1.png" alt="Name 1" width="200" height="200" style="position:absolute;" />
+            <div id="text" style="margin-left:30%;padding-top:20px;padding-bottom:60px">
+                <p>Jefferson Allen</p><br />
+                <p>
+                    Jefferson is a Computer Science Major focusing on Software Development at ECPI University.
+                    He graduates in June 2017 and has plans to pursue a career in game development.
+                    He has extensive skills in dealing with people and resolving problems.
+                </p>
+            </div>
 
-        <img id="myImg" src="images/IMG_1452.JPG" alt="Name 1" width="300" height="200">
+            <img id="myImg" src="images/Bailey,Aaron 1x1.png" alt="Name 1" width="200" height="200" style="position:absolute;margin-top:50px" />
+            <div id="text" style="margin-left:30%;padding-top:5px; margin-top:50px">
+                <p>Aaron Bailey</p><br />
+                <p>
+                    Aaron is a Business Administration Major focusing on Business Management at ECPI University.
+                    He has a Six Sigma Green Belt certification. His interests include consumer technology, science fiction, and graphic design.
+                    He is a member of the Geek Squad and uses his talents to continually improve the performance and customer experience his team provides.
+                    As a member of the Geek Squad, he has had hands on experience with DJI Phantom, Protocol, and Parrot consumer-grade drones.
+                </p>
+            </div>
+            
+            <img id="myImg" src="images/Crawley,Alton1x1.png" alt="Name 1" width="200" height="200" style="position:absolute;margin-top:30px" />
+            <div id="text" style="margin-left:30%;padding-top:5px;padding-bottom:63px">
+                <p>Alton Crawley</p><br />
+                <p>
+                    Alton is a working towards a B.S. in Business Administration with a concentration in Operational Management.
+                    He graduates in December of 2017. 
+                    After graduation, he plans to seek employment that will use both his military background and his newly achieved degree. 
+                    Alton's ultimate goal is to run his own company.
+                </p>
+            </div>
 
-        <!-- The Modal -->
-        <div id="myModal" class="modal">
-            <span class="close">&times;</span>
-            <img class="modal-content" id="img01">
-            <div id="caption"></div>
+            <img id="myImg" src="images/Howard,Thyraellis 1x1.png" alt="Name 1" width="200" height="200" style="position:absolute;margin-top:30px" />
+            <div id="text" style="margin-left:30%;padding-top:5px">
+                <p>Thyraellis Howard</p><br />
+                <p>
+                    Thyra is working towards her Bachelors in Software Development and is currently working at Think of Us as a Front-end Developer.
+                    She has experience with most coding languages but prefers CSS because of the design aspects of it and because she likes to “Play with it”.
+                    She will complete her Software degree in October 2017 but is considering coming back to continue her education so she can become a teacher.
+                    Her moto for life is “Kill them with kindness, and if that doesn’t work keep smiling.”
+                </p>
+            </div>
+
+            <img id="myImg" src="images/Larson,Carl1x1.png" alt="Name 1" width="200" height="200" style="position:absolute;margin-top:30px" />
+            <div id="text" style="margin-left:30%;padding-top:5px">
+                <p>Carl Larson</p><br />
+                <p>
+                    Carl is a Electronics Engineering Major with focus on Mechatronics at ECPI University.
+                    His graduation is set to be April, of 2017. 
+                    After graduation Carl plans to find a career path in reusable energy mainly solar power. 
+                    This will allow him to utilize specialized skills acquired while in attendance at ECPI as well as past skills acquired through previous trades and military experience.
+                    These include the implementation of leadership , adaptability, various technical skills in both automotive and as a journeyman in residential and commercial electrical.
+                    And although he will achieve his Bachelors in April he is committed to lifelong education and his EIT Engineer in Training Certification in the most foreseeable fututre.
+                </p>
+            </div>
+
+            <img id="myImg" src="images/Rivas,John1x1.png" alt="Name 1" width="200" height="200" style="position:absolute;margin-top:30px" />
+            <div id="text" style="margin-left:30%;padding-top:5px">
+                <p>John Rivas</p><br />
+                <p>
+                    John holds a B.A in Economics and Business from AACSB accredited business school Virginia Military Institute.
+                    John is currently finishing up a B.A in CIS with a concentration in cyber security from ECPI University. 
+                    After graduating this summer he wishes to continue his education throughout the coming years in his new career.
+                    John also held the All-Time World record for his weight division in 2016 making him the strongest man in the world for that weight class. 
+                </p>
+            </div>
+
+            <img id="myImg" src="images/Sherman,Nicole1x1.png" alt="Name 1" width="200" height="200" style="position:absolute;margin-top:30px" />
+            <div id="text" style="margin-left:30%;padding-top:5px">
+                <p>Nicole Sherman</p><br />
+                <p>
+                    Nicole is about to obtain her bachelors in Information Technology and Computer Science, majoring in Software Development. 
+                    She graduates in April of 2017 and plans to take her degree to find a career somewhere closer to the west coast. 
+                    She enjoys her work most when she can put her artistic skills at work, such as front-end developing or web design.
+                    She holds one certificate (The CIW Web Foundations Associate), but plans to get more in the future and further her knowledge in Software Development.
+                </p>
+            </div>
+
+            <img id="myImg" src="images/Trahan,Chris1x1.png" alt="Name 1" width="200" height="200" style="position:absolute;margin-top:30px" />
+            <div id="text" style="margin-left:30%;padding-top:5px;padding-bottom:30px">
+                <p>Chris Trahan</p><br />
+                <p>
+                    Christopher is currently working on his Bachelor of Science degree in Electronics Engineering Technology at ECPI.
+                    He will graduate in October of 2017.
+                    Upon graduation he plans to purser a career in the electronics field where he can use his skills and knowledge that he has developed throughout the years of his education. 
+                    He is interested in going into the repair side of electronics.
+                    He has a Six Sigma Green Belt certification.
+                </p>
+            </div>
+
+            <img id="myImg" src="images/Vought,Chris1x1.png" alt="Name 1" width="200" height="200" style="position:absolute;margin-top:30px" />
+            <div id="text" style="margin-left:30%;padding-top:5px">
+
+                <p>Chris Vought</p><br />
+                <p>
+                    Chris is a Software Development student on track to graduate with a B.S. near the end of 2017.
+                    He enjoys all things technology related and hopes to break into a career in the field by that time.
+                    Having spent four years in the United States Marine Corps, he knows the value of self-improvement and, due to that knowledge,
+                    is committed to lifelong learning.
+                </p>
+            </div>
+
         </div>
-
-        <script>
-            // Get the modal
-            var modal = document.getElementById('myModal');
-
-            // Get the image and insert it inside the modal - use its "alt" text as a caption
-            var img = document.getElementById('myImg');
-            var modalImg = document.getElementById("img01");
-            var captionText = document.getElementById("caption");
-            img.onclick = function () {
-                modal.style.display = "block";
-                modalImg.src = this.src;
-                captionText.innerHTML = this.alt;
-            }
-
-            // Get the <span> element that closes the modal
-            var span = document.getElementsByClassName("close")[0];
-
-            // When the user clicks on <span> (x), close the modal
-            span.onclick = function () {
-                modal.style.display = "none";
-            }
-        </script>
+        <!--end thyra-->
 </div>
 </body>
 </html>
