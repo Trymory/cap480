@@ -1,0 +1,13 @@
+/*  CAP480 Project Styles Sheet  */
+/*  by Chris Vought, ..., ...  */
+
+
+body {
+	background-color: #0099cc;
+}
+
+p {
+	/* First one is a fallback for browsers that don't support rgba. */
+	color: #fff;
+	color: rgba(255,255,255,.7);
+}
